@@ -1,0 +1,6 @@
+/Users/tuannguyen/SmartLearning/SmartLearning.Android/bin/Debug/SmartLearning.Android.dll
+/Users/tuannguyen/SmartLearning/Libs/Xamarin.Android.Support.v4.dll
+/Users/tuannguyen/SmartLearning/Libs/Xamarin.Android.Support.v7.AppCompat.dll
+/Users/tuannguyen/SmartLearning/Libs/SQLite.dll
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/bin/Debug/SmartLearning.Android.Shared.dll
+/Users/tuannguyen/SmartLearning/Libs/MH.ApiObject/bin/Debug/MH.ApiObject.dll

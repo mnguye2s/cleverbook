@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuBar"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:minHeight="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:layout_gravity="bottom">
+    <LinearLayout
+        android:id="@+id/menu_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/today_white"
+            android:id="@+id/classAction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center" />
+        <ImageView
+            android:id="@+id/discussionAction"
+            android:src="@drawable/question_white"
+            android:layout_width="0dp"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="false"
+            android:layout_gravity="center" />
+        <ImageView
+            android:src="@drawable/courses_black"
+            android:id="@+id/notificationAction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center" />
+        <ImageView
+            android:src="@drawable/info_white"
+            android:id="@+id/settingsAction"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

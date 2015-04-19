@@ -1,0 +1,55 @@
+﻿<Properties StartupItem="SmartLearning.Android/SmartLearning.Android.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SmartLearning.Share/ViewModels/MainViewModel.cs">
+    <Files>
+      <File FileName="SmartLearning.Share/ViewModels/WelcomeViewModel.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/WelcomeView.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/MainView.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/LearningView.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/LexiconView.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Share/ViewModels/LearningViewModel.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/RandomTestView.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Share/ViewModels/MainViewModel.cs" Line="3" Column="3" />
+      <File FileName="SmartLearning.Share/ViewModels/LexiconViewModel.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Share/ViewModels/LearningViewModel.Properties.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Share/SmartLearningApplication.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Share/ServiceIntegration/Database/InitDatabase.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/BaseNavigator.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="SmartLearning.Android/QuickCross/ActivityViewBase.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MH.ApiObject" expanded="True" />
+          <Node name="SmartLearning.Android" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="Properties" expanded="True" />
+            <Node name="QuickCross" expanded="True" />
+            <Node name="Resources" expanded="True">
+              <Node name="layout" expanded="True" />
+              <Node name="menu" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="SmartLearning.Android.Shared" expanded="True">
+            <Node name="References" expanded="True" />
+            <Node name="QuickCross" expanded="True" />
+            <Node name="ServiceIntegration" expanded="True">
+              <Node name="Database" expanded="True" />
+            </Node>
+            <Node name="ViewModels" expanded="True">
+              <Node name="MainViewModel.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/tuannguyen/SmartLearning/SmartLearning.Share/ViewModels/MainViewModel.cs" line="22" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SmartLearning.Android MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

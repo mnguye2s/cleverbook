@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartLearning.Android</name>
+    </assembly>
+    <members>
+        <member name="M:QuickCross.ActivityViewBase.Initialize">
+            <summary>
+            Call Initialize() in the OnCreateView method of a derived view class to ensure handlers are added.
+            </summary>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase.AddHandlers">
+            <summary>
+            Override this method in a derived view class to register additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase.RemoveHandlers">
+            <summary>
+            Override this method in a derived view class to unregister additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase`1.Initialize(Android.Views.View,`0,QuickCross.BindingParameters[],System.String)">
+            <summary>
+            Call Initialize() in the OnCreate method of a derived view class to create the data bindings and update the view with the current view model values.
+            </summary>
+            <param name="rootView">The view that should display the viewModel</param>
+            <param name="viewModel">The view model</param>
+            <param name="bindingsParameters">Optional binding parameters; use to override default parameter values for specific bindings, or as an alternative for specifying binding parameters in the view tag attribute in AXML. Note that any binding parameters specified in the tag attribute wil override bindingsParameters.</param>
+            <param name="idPrefix">The name prefix used to match view Id to property name. Default value is the root view class name + "_"</param>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase`1.AddHandlers">
+            <summary>
+            Override this method in a derived view class to register additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase`1.RemoveHandlers">
+            <summary>
+            Override this method in a derived view class to unregister additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase`1.OnPropertyChanged(System.String)">
+            <summary>
+            Override this method in a derived view class to handle changes for specific properties in custom code instead of through data binding.
+            </summary>
+            <param name="propertyName">
+            </param>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase`1.UpdateView(Android.Views.View,System.Object)">
+            <summary>
+            Override this method in a derived view class to change how a data-bound value is set for specific views
+            </summary>
+            <param name="view">
+            </param>
+            <param name="value">
+            </param>
+        </member>
+        <member name="M:QuickCross.ActivityViewBase`1.OnCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Override this method in a derived view class to react to changes in lists that implement INotifyCollectionChanged (e.g. ObservableCollection) that are data-bound in that view
+            </summary>
+            <param name="sender">The ObservableCollection that was changed</param>
+            <param name="e">See http://blog.stephencleary.com/2009/07/interpreting-notifycollectionchangedeve.html for details</param>
+        </member>
+        <member name="M:QuickCross.DataBindableListAdapter`1.AddHandlers">
+            <summary>
+            Override this method in a derived adapter class to register additional event handlers for your adapter. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.DataBindableListAdapter`1.RemoveHandlers">
+            <summary>
+            Override this method in a derived adapter class to unregister additional event handlers for your adapter. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.DataBindableListAdapter`1.OnCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Override this method in a derived adapter class to react to changes in a list if it implements INotifyCollectionChanged (e.g. an ObservableCollection)
+            </summary>
+            <param name="sender">The ObservableCollection that was changed</param>
+            <param name="e">See http://blog.stephencleary.com/2009/07/interpreting-notifycollectionchangedeve.html for details</param>
+        </member>
+        <member name="M:QuickCross.DataBindableListAdapter`1.UpdateView(Android.Views.View,System.Object)">
+            <summary>
+            Override this method in a derived adapter class to change how a data-bound value is set for specific views
+            </summary>
+            <param name="view">
+            </param>
+            <param name="value">
+            </param>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase.Initialize">
+            <summary>
+            Call Initialize() in the OnCreateView method of a derived view class to ensure handlers are added.
+            </summary>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase.AddHandlers">
+            <summary>
+            Override this method in a derived view class to register additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase.RemoveHandlers">
+            <summary>
+            Override this method in a derived view class to unregister additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase`1.Initialize(Android.Views.View,`0,Android.Views.LayoutInflater,QuickCross.BindingParameters[],System.String)">
+            <summary>
+            Call Initialize() in the OnCreateView method of a derived view class to create the data bindings and update the view with the current view model values.
+            </summary>
+            <param name="rootView">The view that should display the viewModel</param>
+            <param name="viewModel">The view model</param>
+            <param name="layoutInflater">The LayoutInflater that you got as parameter of the OnCreateView method</param>
+            <param name="bindingsParameters">Optional binding parameters; use to override default parameter values for specific bindings, or as an alternative for specifying binding parameters in the view tag attribute in AXML. Note that any binding parameters specified in the tag attribute wil override bindingsParameters.</param>
+            <param name="idPrefix">The name prefix used to match view Id to property name. Default value is the root view class name + "_"</param>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase`1.AddHandlers">
+            <summary>
+            Override this method in a derived view class to register additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase`1.RemoveHandlers">
+            <summary>
+            Override this method in a derived view class to unregister additional event handlers for your view. Always call base.AddHandlers() in your override.
+            </summary>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase`1.OnPropertyChanged(System.String)">
+            <summary>
+            Override this method in a derived view class to handle changes for specific properties in custom code instead of through data binding.
+            </summary>
+            <param name="propertyName">
+            </param>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase`1.UpdateView(Android.Views.View,System.Object)">
+            <summary>
+            Override this method in a derived view class to change how a data-bound value is set for specific views
+            </summary>
+            <param name="view">
+            </param>
+            <param name="value">
+            </param>
+        </member>
+        <member name="M:QuickCross.FragmentViewBase`1.OnCollectionChanged(System.Object,System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Override this method in a derived view class to react to changes in lists that implement INotifyCollectionChanged (e.g. ObservableCollection) that are data-bound in that view
+            </summary>
+            <param name="sender">The ObservableCollection that was changed</param>
+            <param name="e">See http://blog.stephencleary.com/2009/07/interpreting-notifycollectionchangedeve.html for details</param>
+        </member>
+    </members>
+</doc>

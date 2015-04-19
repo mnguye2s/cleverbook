@@ -1,0 +1,7 @@
+/Users/tuannguyen/Rabiti/klassjoy/trunk/sources/KlassJoy/Clients/KlassJoy.IOSResources64/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/tuannguyen/Rabiti/klassjoy/trunk/sources/KlassJoy/Clients/KlassJoy.IOSResources64/obj/Release/KlassJoy.IOSResources.Resources.en.lproj.Localizable.strings
+/Users/tuannguyen/Rabiti/klassjoy/trunk/sources/KlassJoy/Clients/KlassJoy.IOSResources64/obj/Release/KlassJoy.IOSResources.Resources.vi.lproj.Localizable.strings
+/Users/tuannguyen/Rabiti/klassjoy/trunk/sources/KlassJoy/Clients/KlassJoy.IOSResources64/bin/Release/KlassJoy.IOSResources64.dll.mdb
+/Users/tuannguyen/Rabiti/klassjoy/trunk/sources/KlassJoy/Clients/KlassJoy.IOSResources64/bin/Release/KlassJoy.IOSResources64.dll
+/Users/tuannguyen/Rabiti/klassjoy/trunk/sources/KlassJoy/Clients/KlassJoy.IOSResources64/obj/Release/KlassJoy.IOSResources64.dll
+/Users/tuannguyen/Rabiti/klassjoy/trunk/sources/KlassJoy/Clients/KlassJoy.IOSResources64/obj/Release/KlassJoy.IOSResources64.dll.mdb

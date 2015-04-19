@@ -1,0 +1,96 @@
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Resources/LaunchScreen.plist
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.plist
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/LaunchScreen.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/4BS-sw-fet-view-pkF-8M-gn2.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/Bzd-pb-7HI-view-FFF-qb-Fbc.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/CF4-fs-f9p-view-Y5U-hy-8T1.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/FilterDateView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/Hpu-T5-OwD-view-bh2-M2-hHk.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/Info.plist
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/IntroductionView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/LearningView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/LexiconView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/NewWordView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/NiE-yI-VXG-view-uix-Tc-bvS.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/RandomTestView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/RootView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/UIViewController-jvM-9p-f0U.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/WelcomeView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/WordDetailView.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/dxy-0Y-1hA-view-Kyu-AE-tY4.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/k8Y-N8-fJf-view-JtP-2I-qnu.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ibtool/Main_Storyboard.storyboardc/udj-zq-J8f-view-5gA-tj-uzj.nib
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/actool/asset-manifest.plist
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/actool/Assets.car
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ic_notifications_black_24dp.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ic_school_black_24dp.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/filter-outline.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Today-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Answers-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Literature-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Help-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Questions-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/addnewword.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/lexicon.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/randomtest.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/reviewdaily.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/worddetail.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Questions Filled-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Questions Filled-25-2.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ArrowDown-Red.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Today Filled-32.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Courses Filled-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Info Filled-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Questions Filled-25-3.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Today Filled-25.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/006792-3d-transparent-glass-icon-arrows-hand-pointer1-right.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/playButton.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/play.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/logo.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Icon.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Icon@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Icon-60@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Icon-Small@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Icon-Small-40@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Icon-Small.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/ic_power_white_24dp.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Cool-50.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/In Love-50.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Sad-50.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/LOL-50.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Slogan.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/enjoy.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/helpyou.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/letme.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Images.xcassets/bg_button_slide.imageset/bg_button.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/bgbutton.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Images/bar.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Images/bar@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Images/legend_label.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/Images/legend_label@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/success@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/error.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/error@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/success.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/error_7.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/error_7@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/success_7.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/success_7@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/xamarin@2x.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/xamarin.png
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/en.lproj/Localizable.strings
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/vi.lproj/Localizable.strings
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/SmartLearning.exe.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/SmartLearning.exe
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/SmartLearning.exe
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/SmartLearning.exe.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/Xamarin.Controls.BarChart.iOS.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/BTProgressHUD.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/BTProgressHUD.dll.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/SmartLearning.Share.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/SmartLearning.Share.dll.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/MH.ApiObject.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/MH.ApiObject.dll.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/SmartLearning.IOSResources64.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/bin/iPhone/Debug/SmartLearning.IOSResources64.dll.mdb

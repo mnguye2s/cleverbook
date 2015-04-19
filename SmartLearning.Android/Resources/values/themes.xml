@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- the theme applied to the application or activity -->
+  <style name="CustomActionBarTheme"
+         parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    <item name="android:actionBarStyle">@style/SmartLearningActionBar</item>
+  </style>
+
+  <!-- ActionBar styles -->
+  <style name="SmartLearningActionBar"
+         parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    <item name="android:background">#4e9587</item>
+  </style>
+</resources>

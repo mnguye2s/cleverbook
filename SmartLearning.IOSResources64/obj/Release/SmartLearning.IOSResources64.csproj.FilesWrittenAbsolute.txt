@@ -1,0 +1,7 @@
+/Users/tuannguyen/SmartLearning/SmartLearning.IOSResources64/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/tuannguyen/SmartLearning/SmartLearning.IOSResources64/obj/Release/SmartLearning.IOSResources.Resources.en.lproj.Localizable.strings
+/Users/tuannguyen/SmartLearning/SmartLearning.IOSResources64/obj/Release/SmartLearning.IOSResources.Resources.vi.lproj.Localizable.strings
+/Users/tuannguyen/SmartLearning/SmartLearning.IOSResources64/bin/Release/SmartLearning.IOSResources64.dll.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning.IOSResources64/bin/Release/SmartLearning.IOSResources64.dll
+/Users/tuannguyen/SmartLearning/SmartLearning.IOSResources64/obj/Release/SmartLearning.IOSResources64.dll
+/Users/tuannguyen/SmartLearning/SmartLearning.IOSResources64/obj/Release/SmartLearning.IOSResources64.dll.mdb

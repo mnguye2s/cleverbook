@@ -1,0 +1,7 @@
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/bin/Debug/MH.ApiObject.dll
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/bin/Debug/MH.ApiObject.dll.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/bin/Debug/SmartLearning.Share.dll.mdb
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/bin/Debug/SmartLearning.Share.dll
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/obj/Debug/SmartLearning.Share.dll
+/Users/tuannguyen/SmartLearning/SmartLearning.Share/obj/Debug/SmartLearning.Share.dll.mdb

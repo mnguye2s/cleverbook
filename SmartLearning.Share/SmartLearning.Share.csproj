@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{9505160D-9024-4B61-8762-305504BF344D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SmartLearning.Share</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>SmartLearning.Share</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="IOSServices\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ISharedSmartLearningNavigator.cs" />
+    <Compile Include="SmartLearningApplication.cs" />
+    <Compile Include="QuickCross\ApplicationBase.cs" />
+    <Compile Include="QuickCross\AsyncRelayCommand .cs" />
+    <Compile Include="QuickCross\RelayCommand.cs" />
+    <Compile Include="QuickCross\ViewModelBase.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\BaseModel.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\BaseRepository.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\DbUtil.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\IRepository.cs" />
+    <Compile Include="ServiceIntegration\Database\InitDatabase.cs" />
+    <Compile Include="ServiceIntegration\Database\Models\AppInfo.cs" />
+    <Compile Include="ServiceIntegration\Database\Models\UserInfo.cs" />
+    <Compile Include="ServiceIntegration\Database\SQLite\SQLite.cs" />
+    <Compile Include="ServiceIntegration\Database\SQLite\SQLite.MonoTouchAdmin.cs" />
+    <Compile Include="ServiceIntegration\Database\SQLite\SQLiteAsync.cs" />
+    <Compile Include="ServiceIntegration\Database\UserInfoRepository.cs" />
+    <Compile Include="ViewModels\Common\ItemViewModelBase.cs" />
+    <Compile Include="ViewModels\Common\MHTableViewModelBase.cs" />
+    <Compile Include="ViewModels\Common\MHViewModelBase.cs" />
+    <Compile Include="ViewModels\LearningViewModel.cs" />
+    <Compile Include="ViewModels\LexiconViewModel.cs" />
+    <Compile Include="ViewModels\NewWordViewModel.cs" />
+    <Compile Include="ViewModels\Common\SLViewModelBase.cs" />
+    <Compile Include="ServiceIntegration\SupperMemo.cs" />
+    <Compile Include="ServiceIntegration\WordRepository.cs" />
+    <Compile Include="ServiceIntegration\Database\Models\WordModel.cs" />
+    <Compile Include="ViewModels\RootViewModel.cs" />
+    <Compile Include="ViewModels\LexiconItemViewModel.cs">
+      <DependentUpon>LexiconViewModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\WelcomeViewModel.cs" />
+    <Compile Include="ViewModels\WordDetailViewModel.cs" />
+    <Compile Include="ViewModels\FilterDateViewModel.cs" />
+    <Compile Include="ViewModels\IntroductionViewModel.cs" />
+    <Compile Include="ViewModels\LearningViewModel.Properties.cs">
+      <DependentUpon>LearningViewModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IOSServices\LocalNotification.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ServiceIntegration\Database\Models\CalendarModel.cs" />
+    <Compile Include="ServiceIntegration\Database\CalendarRepository.cs" />
+    <Compile Include="ViewModels\RandomTestViewModel.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Libs\MH.ApiObject\MH.ApiObject.csproj">
+      <Project>{CB3D3301-2F2D-461B-8FE6-11C082535840}</Project>
+      <Name>MH.ApiObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

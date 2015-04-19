@@ -1,0 +1,28 @@
+﻿<Properties StartupItem="SmartLearning/SmartLearning.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Tuan Nguyen’s iPhone" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="SmartLearning" expanded="True" selected="True">
+            <Node name="QuickCross" expanded="True" />
+            <Node name="ViewControllers" expanded="True" />
+          </Node>
+          <Node name="SmartLearning.Share" expanded="True">
+            <Node name="IOSServices" expanded="True" />
+            <Node name="ServiceIntegration" expanded="True">
+              <Node name="Database" expanded="True">
+                <Node name="Base" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ViewModels" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

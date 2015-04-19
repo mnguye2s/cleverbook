@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{C6299E87-D19B-40C8-B1D4-F1E1D4F63C64}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SmartLearning</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>SmartLearning</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <MtouchI18n>
+    </MtouchI18n>
+    <CodesignProvision>0d8b8f55-ee0f-4595-8a12-8451c10c91f7</CodesignProvision>
+    <CodesignKey>iPhone Developer: Ha Doan (V3Q84XXAYG)</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchProfiling>true</MtouchProfiling>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <IpaIncludeArtwork>true</IpaIncludeArtwork>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>Automatic:AdHoc</CodesignProvision>
+    <BuildIpa>true</BuildIpa>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <CodesignProvision>Automatic:AppStore</CodesignProvision>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="Xamarin.Controls.BarChart.iOS">
+      <HintPath>..\Libs\Xamarin.Controls.BarChart.iOS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
+    <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
+    <InterfaceDefinition Include="Main_Storyboard.storyboard" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="QuickCross\AppDelegate.cs" />
+    <Compile Include="QuickCross\BindingHelper.cs" />
+    <Compile Include="QuickCross\DataBindableUITableViewSource.cs" />
+    <Compile Include="QuickCross\ObjcMagic.cs" />
+    <Compile Include="QuickCross\TabBarViewBase.cs" />
+    <Compile Include="QuickCross\TableViewBase.cs" />
+    <Compile Include="QuickCross\ViewBase.cs" />
+    <Compile Include="QuickCross\ViewDataBindings.cs" />
+    <Compile Include="QuickCross\ViewDataBindings.UI.cs" />
+    <Compile Include="BaseNavigator.cs" />
+    <Compile Include="Components\CircleImageView.cs" />
+    <Compile Include="Components\LoadingOverlay.cs" />
+    <Compile Include="SmartLearningNavigator.cs" />
+    <Compile Include="ViewControllers\LexiconView.cs" />
+    <Compile Include="ViewControllers\LexiconView.designer.cs">
+      <DependentUpon>LexiconView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\NewWordView.cs" />
+    <Compile Include="ViewControllers\NewWordView.designer.cs">
+      <DependentUpon>NewWordView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\RootView.cs" />
+    <Compile Include="ViewControllers\RootView.designer.cs">
+      <DependentUpon>RootView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\LearningView.cs" />
+    <Compile Include="ViewControllers\LearningView.designer.cs">
+      <DependentUpon>LearningView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\WelcomeView.cs" />
+    <Compile Include="ViewControllers\WelcomeView.designer.cs">
+      <DependentUpon>WelcomeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\WordDetailView.cs" />
+    <Compile Include="ViewControllers\WordDetailView.designer.cs">
+      <DependentUpon>WordDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\FilterDateView.cs" />
+    <Compile Include="ViewControllers\FilterDateView.designer.cs">
+      <DependentUpon>FilterDateView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\RandomTestView.cs" />
+    <Compile Include="ViewControllers\RandomTestView.designer.cs">
+      <DependentUpon>RandomTestView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewControllers\IntroductionView.cs" />
+    <Compile Include="ViewControllers\IntroductionView.designer.cs">
+      <DependentUpon>IntroductionView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="QuickCross\" />
+    <Folder Include="Components\" />
+    <Folder Include="ViewControllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BTProgressHUD\BTProgressHUD.csproj">
+      <Project>{8ECDFDC5-42D0-4540-9691-830EEB2ED874}</Project>
+      <Name>BTProgressHUD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartLearning.Share\SmartLearning.Share.csproj">
+      <Project>{9505160D-9024-4B61-8762-305504BF344D}</Project>
+      <Name>SmartLearning.Share</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MH.ApiObject\MH.ApiObject.csproj">
+      <Project>{CB3D3301-2F2D-461B-8FE6-11C082535840}</Project>
+      <Name>MH.ApiObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartLearning.IOSResources64\SmartLearning.IOSResources64.csproj">
+      <Project>{EF21A184-6843-4E3D-8EFD-1425601B19A3}</Project>
+      <Name>SmartLearning.IOSResources64</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ic_notifications_black_24dp.png" />
+    <BundleResource Include="Resources\ic_school_black_24dp.png" />
+    <BundleResource Include="Resources\filter-outline.png" />
+    <BundleResource Include="Resources\Today-25.png" />
+    <BundleResource Include="Resources\Answers-25.png" />
+    <BundleResource Include="Resources\Literature-25.png" />
+    <BundleResource Include="Resources\Help-25.png" />
+    <BundleResource Include="Resources\Questions-25.png" />
+    <BundleResource Include="Resources\addnewword.png" />
+    <BundleResource Include="Resources\lexicon.png" />
+    <BundleResource Include="Resources\randomtest.png" />
+    <BundleResource Include="Resources\reviewdaily.png" />
+    <BundleResource Include="Resources\worddetail.png" />
+    <BundleResource Include="Resources\Questions Filled-25.png" />
+    <BundleResource Include="Resources\Questions Filled-25-2.png" />
+    <BundleResource Include="Resources\ArrowDown-Red.png" />
+    <BundleResource Include="Resources\Today Filled-32.png" />
+    <BundleResource Include="Resources\Courses Filled-25.png" />
+    <BundleResource Include="Resources\Info Filled-25.png" />
+    <BundleResource Include="Resources\Questions Filled-25-3.png" />
+    <BundleResource Include="Resources\Today Filled-25.png" />
+    <BundleResource Include="Resources\.DS_Store" />
+    <BundleResource Include="Resources\006792-3d-transparent-glass-icon-arrows-hand-pointer1-right.png" />
+    <BundleResource Include="Resources\demo.mov" />
+    <BundleResource Include="Resources\playButton.png" />
+    <BundleResource Include="Resources\play.png" />
+    <BundleResource Include="Resources\logo.png" />
+    <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Resources\Icon%402x.png" />
+    <BundleResource Include="Resources\Icon-60%402x.png" />
+    <BundleResource Include="Resources\Icon-Small%402x.png" />
+    <BundleResource Include="Resources\Icon-Small-40%402x.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
+    <BundleResource Include="Resources\ic_power_white_24dp.png" />
+    <BundleResource Include="Resources\Cool-50.png" />
+    <BundleResource Include="Resources\f13a05ab.jpg" />
+    <BundleResource Include="Resources\In Love-50.png" />
+    <BundleResource Include="Resources\Sad-50.png" />
+    <BundleResource Include="Resources\LOL-50.png" />
+    <BundleResource Include="Resources\Slogan.png" />
+    <BundleResource Include="Resources\e-book3.jpg" />
+    <BundleResource Include="Resources\enjoy.png" />
+    <BundleResource Include="Resources\helpyou.png" />
+    <BundleResource Include="Resources\letme.png" />
+    <BundleResource Include="Resources\Images.xcassets\bg_button_slide.imageset\.DS_Store" />
+    <BundleResource Include="Resources\Images.xcassets\bg_button_slide.imageset\Contents.json" />
+    <BundleResource Include="Resources\Images.xcassets\bg_button_slide.imageset\bg_button.png" />
+    <BundleResource Include="Resources\bgbutton.png" />
+  </ItemGroup>
+</Project>

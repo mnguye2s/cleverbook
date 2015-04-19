@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.ibtool.document.errors</key>
+	<dict/>
+	<key>com.apple.ibtool.document.notices</key>
+	<dict/>
+	<key>com.apple.ibtool.document.warnings</key>
+	<dict>
+		<key>1tM-Dr-C7W</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>1tM-Dr-C7W</string>
+				</array>
+				<key>message</key>
+				<string>Segues initiated directly from view controllers must have an identifier</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>75</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>75</string>
+				</array>
+				<key>message</key>
+				<string>Segues initiated directly from view controllers must have an identifier</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>ghF-wW-VoI</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>ghF-wW-VoI</string>
+				</array>
+				<key>message</key>
+				<string>Segues initiated directly from view controllers must have an identifier</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+		<key>mfh-8D-8Kh</key>
+		<array>
+			<dict>
+				<key>affected-objects</key>
+				<array>
+					<string>mfh-8D-8Kh</string>
+				</array>
+				<key>message</key>
+				<string>Segues initiated directly from view controllers must have an identifier</string>
+				<key>type</key>
+				<string>IBUnsupportedConfiguration</string>
+				<key>type-value</key>
+				<integer>9</integer>
+			</dict>
+		</array>
+	</dict>
+</dict>
+</plist>

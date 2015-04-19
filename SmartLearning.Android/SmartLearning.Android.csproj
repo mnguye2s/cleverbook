@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{6EE377C2-2590-4689-9FF3-7027FA7F8CDC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SmartLearning.Android</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>SmartLearning.Android</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+    <DocumentationFile>bin\Debug\SmartLearning.Android.xml</DocumentationFile>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\Libs\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\Libs\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite">
+      <HintPath>..\Libs\SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickCross\ActivityViewBase.cs" />
+    <Compile Include="QuickCross\AndroidHelpers.cs" />
+    <Compile Include="QuickCross\CheckableLayouts.cs" />
+    <Compile Include="QuickCross\DataBindableListAdapter.cs" />
+    <Compile Include="QuickCross\FragmentViewBase.cs" />
+    <Compile Include="QuickCross\ViewDataBindings.UI.cs" />
+    <Compile Include="QuickCross\ViewDataBindings.cs" />
+    <Compile Include="QuickCross\Templates\_APPNAME_Navigator.cs" />
+    <Compile Include="QuickCross\Templates\_VIEWNAME_ActivityView.cs" />
+    <Compile Include="QuickCross\Templates\_VIEWNAME_FragmentView.cs" />
+    <Compile Include="QuickCross\Templates\_VIEWNAME_MainLauncherView.cs" />
+    <Compile Include="BaseNavigator.cs" />
+    <Compile Include="SmartLearningNavigator.cs" />
+    <Compile Include="WelcomeView.cs" />
+    <Compile Include="LearningView.cs" />
+    <Compile Include="LexiconView.cs" />
+    <Compile Include="RandomTestView.cs" />
+    <Compile Include="MainView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Resources\menu\actionbar_main.xml" />
+    <None Include="QuickCross\Templates\_VIEWNAME_View.axml.template" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\WelcomeView.axml" />
+    <AndroidResource Include="Resources\values\themes.xml" />
+    <AndroidResource Include="Resources\layout\fragment_sample.axml" />
+    <AndroidResource Include="Resources\layout\pager_item.axml" />
+    <AndroidResource Include="Resources\layout\LearningView.axml" />
+    <AndroidResource Include="Resources\layout\RandomTestView.axml" />
+    <AndroidResource Include="Resources\layout\LexiconView.axml" />
+    <AndroidResource Include="Resources\layout\HelpView.axml" />
+    <AndroidResource Include="Resources\layout\menu_bar_learning.axml" />
+    <AndroidResource Include="Resources\layout\menu_bar_randomTest.axml" />
+    <AndroidResource Include="Resources\layout\menu_bar_help.axml" />
+    <AndroidResource Include="Resources\drawable\courses_black.png" />
+    <AndroidResource Include="Resources\drawable\courses_white.png" />
+    <AndroidResource Include="Resources\drawable\info_black.png" />
+    <AndroidResource Include="Resources\drawable\info_white.png" />
+    <AndroidResource Include="Resources\drawable\question_black.png" />
+    <AndroidResource Include="Resources\drawable\question_white.png" />
+    <AndroidResource Include="Resources\drawable\today_black.png" />
+    <AndroidResource Include="Resources\drawable\today_white.png" />
+    <AndroidResource Include="Resources\layout\menu_bar_lexicon.axml" />
+    <AndroidResource Include="Resources\layout\title_bar.axml" />
+    <AndroidResource Include="Resources\values\attrs.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values-v21\styles.xml" />
+    <AndroidResource Include="Resources\layout\MainView.axml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\values\" />
+    <Folder Include="Resources\values-v21\" />
+    <Folder Include="QuickCross\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SmartLearning.Share\SmartLearning.Android.Shared.csproj">
+      <Project>{E21D50C1-905A-4310-8246-3CF5A3C95B00}</Project>
+      <Name>SmartLearning.Android.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Libs\MH.ApiObject\MH.ApiObject.csproj">
+      <Project>{CB3D3301-2F2D-461B-8FE6-11C082535840}</Project>
+      <Name>MH.ApiObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

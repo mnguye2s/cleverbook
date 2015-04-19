@@ -1,0 +1,15 @@
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BigTed.BTProgressHUD
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.error.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.error@2x.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.success.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.error_7.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.error_7@2x.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.success_7.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.success_7@2x.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.xamarin@2x.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.xamarin.png
+/Users/tuannguyen/SmartLearning/BTProgressHUD/bin/unified/Debug/BTProgressHUD.dll.mdb
+/Users/tuannguyen/SmartLearning/BTProgressHUD/bin/unified/Debug/BTProgressHUD.dll
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.dll
+/Users/tuannguyen/SmartLearning/BTProgressHUD/obj/unified/Debug/BTProgressHUD.dll.mdb

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{E21D50C1-905A-4310-8246-3CF5A3C95B00}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SmartLearning.Android.Shared</RootNamespace>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AssemblyName>SmartLearning.Android.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="SQLite">
+      <HintPath>..\Libs\SQLite.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="QuickCross\ApplicationBase.cs" />
+    <Compile Include="QuickCross\AsyncRelayCommand .cs" />
+    <Compile Include="QuickCross\RelayCommand.cs" />
+    <Compile Include="QuickCross\ViewModelBase.cs" />
+    <Compile Include="ServiceIntegration\SupperMemo.cs" />
+    <Compile Include="ServiceIntegration\WordRepository.cs" />
+    <Compile Include="ServiceIntegration\Database\InitDatabase.cs" />
+    <Compile Include="ServiceIntegration\Database\UserInfoRepository.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\BaseModel.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\BaseRepository.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\DbUtil.cs" />
+    <Compile Include="ServiceIntegration\Database\Base\IRepository.cs" />
+    <Compile Include="ServiceIntegration\Database\Models\AppInfo.cs" />
+    <Compile Include="ServiceIntegration\Database\Models\UserInfo.cs" />
+    <Compile Include="ServiceIntegration\Database\Models\WordModel.cs" />
+    <Compile Include="ViewModels\FilterDateViewModel.cs" />
+    <Compile Include="ViewModels\IntroductionViewModel.cs" />
+    <Compile Include="ViewModels\LearningViewModel.Properties.cs" />
+    <Compile Include="ViewModels\LearningViewModel.cs" />
+    <Compile Include="ViewModels\LexiconItemViewModel.cs" />
+    <Compile Include="ViewModels\LexiconViewModel.cs" />
+    <Compile Include="ViewModels\NewWordViewModel.cs" />
+    <Compile Include="ViewModels\RootViewModel.cs" />
+    <Compile Include="ViewModels\WelcomeViewModel.cs" />
+    <Compile Include="ViewModels\WordDetailViewModel.cs" />
+    <Compile Include="ViewModels\Common\ItemViewModelBase.cs" />
+    <Compile Include="ViewModels\Common\MHTableViewModelBase.cs" />
+    <Compile Include="ViewModels\Common\MHViewModelBase.cs" />
+    <Compile Include="ViewModels\Common\SLViewModelBase.cs" />
+    <Compile Include="ISharedSmartLearningNavigator.cs" />
+    <Compile Include="SmartLearningApplication.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="QuickCross\" />
+    <Folder Include="ServiceIntegration\" />
+    <Folder Include="ViewModels\" />
+    <Folder Include="Resources\values\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Libs\MH.ApiObject\MH.ApiObject.csproj">
+      <Project>{CB3D3301-2F2D-461B-8FE6-11C082535840}</Project>
+      <Name>MH.ApiObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

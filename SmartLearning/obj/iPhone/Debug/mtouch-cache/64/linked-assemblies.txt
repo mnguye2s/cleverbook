@@ -1,0 +1,9 @@
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/MH.ApiObject.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/mscorlib.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/System.Core.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/Xamarin.iOS.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/SmartLearning.Share.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/SmartLearning.IOSResources64.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/SmartLearning.exe
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/System.dll
+/Users/tuannguyen/SmartLearning/SmartLearning/obj/iPhone/Debug/mtouch-cache/64/Link/BTProgressHUD.dll
